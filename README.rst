@@ -11,14 +11,14 @@ Story Ready is a very simple Python library that takes a list of stories and per
 A simple example
 ----------------
 
-..code-block:: python
+.. code-block:: python
 
   from storyready import Story, has_gwt
   
   stories = [Story(1,"a story with no gwts",0),
              Story(2,"Given this When that Then the other etc.",0)]
 
-        no_gwts = has_gwt(stories)
-
-        print("%{0} stories don't have GWTs".format(len(no_gwts))
+  no_gwts = has_gwt(stories)
+  
+  print("%{0} stories don't have GWTs".format(len(no_gwts))
         
