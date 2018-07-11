@@ -5,4 +5,5 @@ Story Ready is a very simple Python library that takes a list of stories and per
 
 - Acceptance Criteria: Given, When, Thens
 - User Story format: As a, I want, So that
+- Story size over percentage of velocity
 
