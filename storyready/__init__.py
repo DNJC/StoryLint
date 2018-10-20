@@ -1,6 +1,6 @@
 """A little collection  of methods that check user stories for certain properties.
 
-It supports checks for measuable things that are typically included in a Definition of Done.
+It supports checks for measuable things that are typically included in a Definition of Ready.
 
 """
 from re import search, IGNORECASE, DOTALL
