@@ -60,7 +60,7 @@ def has_description(issues):
     return blank
 
 
-def has_size(issues):
+def nosize(issues):
     """ stories that have no size """
 
     blank = []
@@ -82,6 +82,6 @@ def rank(issues, velocity, pcnt_velocity=0.30):
     no_asaa = has_asa(issues)
     not_rightsized = has_rightsize(issues,velocity,pcnt_velocity)
     no_descriptions = has_description(issues)
-    no_size = has_size(issues)
+    no_size = nosize(issues)
 
     return Counter(no_gwts+no_asaa+not_rightsized+no_descriptions+no_size)

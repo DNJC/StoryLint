@@ -1,5 +1,5 @@
 
-from storyready import Story, has_gwt, has_asa, has_rightsize, has_size, has_description, rank
+from storyready import Story, has_gwt, has_asa, has_rightsize, nosize, has_description, rank
 import unittest
 
 
@@ -24,7 +24,7 @@ class TestStoryReady(unittest.TestCase):
                    Story(2,description="story two"),
                    Story(3,size=100)]
 
-        not_sized = has_size(stories)
+        not_sized = nosize(stories)
         self.assertEqual(2,len(not_sized))
 
     def test_three_stories_with_two_no_description(self):

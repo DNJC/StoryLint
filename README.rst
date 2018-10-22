@@ -28,6 +28,11 @@ A simple example
              Story(2,"Given this When that Then the other etc.",0)]
 
   no_gwts = has_gwt(stories)
-  
-  print("%{0} stories don't have GWTs".format(len(no_gwts))
+  print("{0} stories don't have GWTs".format(len(no_gwts)))
+
+  nosizes = nosize(stories)
+  print("{0} stories don't have a size".format(len(nosizes)))
         
+.. code-block:: python
+    1 stories don't have GWTs
+    2 stories don't have a size
