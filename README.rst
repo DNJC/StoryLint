@@ -33,8 +33,10 @@ A simple example
   nosizes = nosize(stories)
   print("{0} stories don't have a size".format(len(nosizes)))
         
+Output
+------
 .. code-block:: python
 
-    1 stories don't have GWTs
-    2 stories don't have a size
+stories don't have GWTs
+stories don't have a size
     
