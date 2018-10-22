@@ -37,6 +37,6 @@ Output
 ------
 .. code-block:: python
 
-stories don't have GWTs
-stories don't have a size
+  1 stories don't have GWTs
+  2 stories don't have a size
     
