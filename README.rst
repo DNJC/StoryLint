@@ -34,5 +34,7 @@ A simple example
   print("{0} stories don't have a size".format(len(nosizes)))
         
 .. code-block:: python
+
     1 stories don't have GWTs
     2 stories don't have a size
+    
